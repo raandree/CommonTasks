@@ -1,5 +1,0 @@
-Policies:
-  - ExecutionPolicyScope: CurrentUser
-    ExecutionPolicy: Unrestricted
-  - ExecutionPolicyScope: LocalMachine
-    ExecutionPolicy: RemoteSigned

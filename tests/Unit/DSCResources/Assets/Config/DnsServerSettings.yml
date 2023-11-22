@@ -19,8 +19,7 @@ EnableDnsSec: true
 SendPort: 0
 WriteAuthorityNS: false
 ListeningIPAddress:
-  - 192.168.1.10
-  - 192.168.2.10
+  - ''
 ForwardDelegations: false
 EnableIPv6: true
 EnableOnlineSigning: true

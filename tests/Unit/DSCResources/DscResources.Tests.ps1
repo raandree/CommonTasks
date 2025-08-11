@@ -10,9 +10,11 @@ BeforeDiscovery {
     $datum = New-DatumStructure -DefinitionFile $here\Assets\Datum.yml
     $allNodes = Get-Content -Path $here\Assets\AllNodes.yml -Raw | ConvertFrom-Yaml
 
+    $previousPSModulePath = $env:PSModulePath
     Write-Host 'Reading DSC Resource metadata for supporting CIM based DSC parameters...'
     Initialize-DscResourceMetaInfo -ModulePath $RequiredModulesDirectory
     Write-Host 'Done'
+    $env:PSModulePath = $previousPSModulePath
 
     $global:configurationData = @{
         AllNodes = [array]$allNodes

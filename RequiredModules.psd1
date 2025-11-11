@@ -35,7 +35,7 @@
     WebAdministrationDsc         = '4.1.0'
     SecurityPolicyDsc            = '2.10.0.0'
     StorageDsc                   = '6.0.1'
-    Chocolatey                   = '0.0.79'
+    Chocolatey                   = '0.10.3'
     ActiveDirectoryDsc           = '6.7.0'
     DFSDsc                       = '5.1.1'
     WdsDsc                       = '0.11.0'

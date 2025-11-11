@@ -24,7 +24,7 @@
     'DscResource.AnalyzerRules'  = 'latest'
     'DscResource.DocGenerator'   = 'latest'
     PowerShellForGitHub          = 'latest'
-    #PSDesiredStateConfiguration  = 'latest'
+    PSDesiredStateConfiguration  = 'latest'
 
     #DSC Resources
     xPSDesiredStateConfiguration = '9.2.1'
@@ -47,7 +47,7 @@
     AuditPolicyDsc               = '1.4.0.0'
     SharePointDSC                = '5.6.1'
     ExchangeDsc                  = '2.0.0'
-    SqlServerDsc                 = '17.1.0'
+    SqlServerDsc                 = '17.2.0'
     UpdateServicesDsc            = '1.2.1'
     xWindowsEventForwarding      = '1.0.0.0'
     OfficeOnlineServerDsc        = '1.5.0'
